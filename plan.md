@@ -38,4 +38,13 @@ Table (application) :
     -date_reception
     -type_fichier
     -client
+------------------------------------------------------------------------------------------------------------------------------------------------------
+    Apps demandé :
+    1 - Saisie
+    2 - lot
+    3 - Operation
+    4 - User
+    5 - Fichier
+    6 - Homme
+    7 - Login
 
