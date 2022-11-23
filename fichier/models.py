@@ -1,4 +1,5 @@
 from django.db import models
+from operation.models import operation
 
 # Create your models here.
 
@@ -8,5 +9,6 @@ class Fichier(models.Model):
     date_modification=models.DateTimeField(auto_now=True)
     type_fichier=models.CharField(max_length=50)
     client=models.CharField(max_length=50)
+    operation = models.ManyToManyField(operation)
 
     

@@ -48,3 +48,6 @@ Table (application) :
     6 - Homme
     7 - Login
 
+
+
+entete operation : Participation_id,	ancien_idPlateforme,	num_conso,	op_name,	civilite,	raison_social,	Nom,	prenom,	adresse1,	adresse2,	adresse3,	adresse4,	CodePostal,	ville,	pays,	langue,	Email,	Tel,	nombre_pneus_base,	diametre_pneus_base,	num_pdv_base,	date_achat_base,	optin_base,	optin_pdv_base,	optin_auto_base,	date_participation_base,	type_pneus_base,	idDotation_base,	Montant_base,	TypeBenefice_base

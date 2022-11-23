@@ -1,4 +1,6 @@
 from django.db import models
+from user.models import user
+from operation.models import operation
 
 class saisie(models.Model):
     id_saisie=models.AutoField(primary_key=True)
@@ -40,5 +42,11 @@ class saisie(models.Model):
     Date_Cloture=models.DateTimeField(auto_now=True)
     Commentaire=models.CharField(max_length=100)
     etat=models.CharField(max_length=100)
+    user = models.OneToOneField(
+        user,
+        on_delete=models.DO_NOTHING
+    )
+    operation = models.ForeignKey(operation, on_delete=models.DO_NOTHING)
+    
 
 
