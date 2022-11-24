@@ -1,6 +1,7 @@
 from django.db import models
 
 
+
 class operation(models.Model):
     id_op=models.AutoField(primary_key=True)
     nom_operation=models.CharField(max_length=10)

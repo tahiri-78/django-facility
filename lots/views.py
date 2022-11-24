@@ -1,3 +1,9 @@
 from django.shortcuts import render
 
-# Create your views here.
+def lot_list(request):
+    pass
+
+
+def lot_detail(request,id):
+    pass
+  
